@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+h1 {
+    font-size: 2.5em; /* Font size for the main heading */
+    color: #ff69b4; /* Pink color for the heading */
+}
+
+button {
+    padding: 15px 30px; /* Button padding */
+    margin: 10px; /* Margin around buttons */
+    font-size: 1.5em; /* Font size for buttons */
+    cursor: pointer; /* Cursor change on hover */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#noButton {
+    background-color: #ffcccb; /* Light red color for the "No" button */
+}
+
+#yesButton {
+    background-color: #90ee90; /* Light green color for the "Yes" button */
+}
+
+#response {
+    margin-top: 20px; /* Margin above response text */
+    font-size: 1.2em; /* Font size for response text */
+    color: #333; /* Dark color for response text */
+}

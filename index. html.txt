@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design settings -->
+    <title>Hi Crush!</title> <!-- Title of the webpage that appears in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file for styling -->
+    <script src="script.js" defer></script> <!-- Link to the JavaScript file for functionality -->
+</head>
+<body>
+    <h1>HI CRUSH</h1>
+    <p>Do you like me?</p>
+    <button id="yesButton" onclick="handleYes()">Yes</button>
+    <button id="noButton" onclick="handleNo()">No</button>
+    <div id="response"></div>
+    <audio id="yesSound" src="https://www.soundjay.com/button/sounds/button-09.mp3"></audio>
+</body>
+</html>

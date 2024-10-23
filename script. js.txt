@@ -1,0 +1,10 @@
+// script.js
+
+function handleYes() {
+    document.getElementById("response").innerHTML = "Yieee! Chat mo na ako usap na us!";
+    document.getElementById("yesSound").play(); // Play the sound
+}
+
+function handleNo() {
+    document.getElementById("noButton").innerHTML = "Are you sure?";
+}
